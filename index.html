@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<title>Mileage Converter</title>
+		<h1>Mileage Converter</h1>
+		<h4>Miles Per Gallon to Kilometers Per Liter</h4>
+	</head>
+	<br>
+	<body>
+		<form name="con">
+			Miles per Gallon: <input type="number" name="mpg"><br>
+			<input type="button" onClick = converter() value="Convert!">
+		</form>
+		<script>
+			function converter()
+			{
+				var mpg = Number(document.con.mog.value);
+				alert(" " + mpg + "MPG is equal to " + (1.609 * mpg)/(3.785 + "KPL");
+			}
+		</script>
+	</body>
+</html>
+
+
+
+

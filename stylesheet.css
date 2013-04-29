@@ -1,0 +1,32 @@
+h1{
+	font-family: Tahoma;
+	font-weight: bold;
+	text-align: center;
+	color: #1F3D5C;
+}
+
+h4 {
+	font-family: Tahoma;
+	font-weight: bold;
+	text-align: center;
+	color: #C8C8C8;
+}
+
+body {
+	background-color: #7AA3CC;
+}
+
+table, th, tr, td {
+	font-family: Tahoma;
+	width: 300px;
+	height: 10px;
+}
+
+td {
+	font-weight: bold;
+	color: white;
+}
+
+div {
+	text-align: center;
+}
